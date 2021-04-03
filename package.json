@@ -2,8 +2,12 @@
   "name": "hello-world",
   "version": "1.0.0",
   "description": "A simple Hello World Node App",
+  "engines": {
+          "node":   "12.x"
+  },
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +15,8 @@
     "url": "git+https://github.com/Virtual-Crash/node-hello-world.git"
   },
   "keywords": [
-    "node.js"
+    "node.js",
+    "heroku"
   ],
   "author": "Kayla Jeter",
   "license": "MIT",
